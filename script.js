@@ -3,11 +3,11 @@ const totalSlides = 3;
 
 // Check if user has visited before
 function checkReturnVisitor() {
-    const hasVisited = localStorage.getItem('blwrsVisited');
+    const hasVisited = localStorage.getItem('footFetishVisited');
     
     if (hasVisited) {
         // User has visited before, redirect immediately
-        window.location.href = 'https://ef-to-wz.com/tds/ae?tds_campaign=s7788kru&tdsId=s7788kru_r&s1=int&utm_source=int&utm_term=2&p7=%7Bp7%7D&clickid=%7Bclickid%7D&subid=%7Bsubid%7D&subid2=%7Bsubid2%7D&affid=cf9f103c';
+        window.location.href = 'https://datersluv.com/tds/ae?tds_campaign=s7090kru&tdsId=s7090kru_r&s1=int&utm_source=int&utm_sub=opnfnl&utm_term=4&clickid=%7Bclickid%7D&subid=%7Bsubid%7D&subid2=%7Bsubid2%7D&affid=cf9f103c';
         return true;
     }
     
@@ -16,14 +16,14 @@ function checkReturnVisitor() {
 
 // Mark user as visited
 function markAsVisited() {
-    localStorage.setItem('blwrsVisited', 'true');
-    localStorage.setItem('blwrsVisitTime', new Date().getTime());
+    localStorage.setItem('footFetishVisited', 'true');
+    localStorage.setItem('footFetishVisitTime', new Date().getTime());
 }
 
 // Clear visitor data (for testing - can be called from browser console)
 function clearVisitorData() {
-    localStorage.removeItem('blwrsVisited');
-    localStorage.removeItem('blwrsVisitTime');
+    localStorage.removeItem('footFetishVisited');
+    localStorage.removeItem('footFetishVisitTime');
     console.log('Visitor data cleared');
 }
 
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function redirectToSite() {
     markAsVisited();
-    window.location.href = 'https://ef-to-wz.com/tds/ae?tds_campaign=s7788kru&tdsId=s7788kru_r&s1=int&utm_source=int&utm_term=2&p7=%7Bp7%7D&clickid=%7Bclickid%7D&subid=%7Bsubid%7D&subid2=%7Bsubid2%7D&affid=cf9f103c';
+    window.location.href = 'https://datersluv.com/tds/ae?tds_campaign=s7090kru&tdsId=s7090kru_r&s1=int&utm_source=int&utm_sub=opnfnl&utm_term=4&clickid=%7Bclickid%7D&subid=%7Bsubid%7D&subid2=%7Bsubid2%7D&affid=cf9f103c';
 }
 
 // Touch/swipe functionality for mobile
